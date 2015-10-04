@@ -1,0 +1,302 @@
+body{
+    background: url("http://coskunorman.com.tr/images/grey-background-hd-564.jpg");
+    opacity: 0.9;
+    background-attachment: fixed;
+    background-position: top;
+    margin: 5px 100px 50px 100px;
+    max-width: 1000px;
+    min-width: 1px;
+    max-height: 1px;
+    min-height: 1px;
+    overflow: auto;
+    z-index: 1;
+    break-after: auto;
+    break-before: auto;
+    break-inside: auto;
+    widows: inherit;
+    orphans: inherit;
+    page-break-after: auto;
+    page-break-before: auto;
+    page-break-inside: auto;
+    marks: none;
+}
+
+blockquote{
+    quotes: "«" "»";
+}
+
+a {
+    align-content: flex-start;
+    cursor: crosshair;
+}
+
+span{
+    outline: red;
+    outline-color: red;
+    outline-offset: 5px;
+    outline-style: solid;
+    outline-width: 5px;
+}
+
+@keyframes mymove{
+    0% {
+        top: 0px;
+    }
+    25% {
+        top: 200px;
+    }
+    75% {
+        top: 50px
+    }
+    100% {
+        top: 100px;
+    }
+}
+
+
+dialog{
+    animation-delay: unset;
+    animation: mymove 5s infinite;
+    animation-direction: alternate;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: unset;
+    animation-name: mymove;
+    animation-play-state: running;
+    animation-timing-function: ease;
+    position: relative;
+    bottom: 70px;
+    left: 700px;
+    right: 70px;
+    top: 70px;
+    perspective: 500px;
+    perspective-origin: 10% 10%;
+}
+
+#html{
+    backface-visibility: hidden;
+    vertical-align: super;
+    border-image: url("border.png");
+    border-image-repeat: stretch;
+    border-image-slice: 30;
+    border-image-outset: 5px;
+    border-image-source: url(border.png);
+    border-image-width: 5px;
+}
+
+#list1{
+    font-weight: 500;
+    font-variant-east-asian: normal;
+    font-variant: unicase;
+    font-variant-alternates: normal;
+    font-variant-caps: small-caps;
+    background-color: aliceblue;
+    clear: both;
+    width: 400px;
+    align-items: flex-start;
+    flex: auto;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-flow: column;
+    flex-grow: inherit;
+    flex-shrink: inherit;
+    flex-wrap: wrap;
+    justify-content: center;
+    order: inherit;
+    list-style-image: url("http://images.ventrino.com/icons/iconex_ap/48x48/plain/bullet_triangle_blue.png");
+    list-style-position: inherit;
+}
+
+
+#list2{
+    list-style-type: decimal;
+}
+
+h1{
+    font: 50px arial, sans-serif;
+    text-decoration: underline;
+    text-shadow: 1px 1px white;
+    letter-spacing: 20px;
+    height: 50px;
+    line-break: auto;
+    line-height: normal;
+
+}
+
+@font-face {
+    font-family: "Arimo";
+    src: url(https://fonts.googleapis.com/css?family=Arimo);
+}
+
+a:after {
+    content: " (" attr(href) ")";
+}
+
+caption{
+    column-span: 2;
+}
+
+p {
+    column-count: 2;
+    column-fill: auto;
+    column-gap: 20px;
+    column-rule: 4px outset;
+    column-rule-color: red;
+    column-rule-style: dotted;
+    column-rule-width: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-size-adjust: inherit;
+    font-feature-settings: inherit;
+    font-language-override: normal;
+    font-kerning: auto;
+    font-family: "Arimo", Courier;
+    word-wrap: break-word;
+    word-spacing: 10px;
+    word-break: break-all
+    text-justify: auto;
+    text-combine-upright: all;
+    text-align-last: justify;
+    text-align: justify;
+    tab-size: 100;
+    overflow-wrap: normal;
+    padding: 10px;
+    overflow-x: auto;
+    overflow-y: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: whitesmoke;
+    border-bottom: solid;
+    border-bottom-color: whitesmoke;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-left: solid;
+    border-left-color: whitesmoke;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-right: solid;
+    border-right-color: whitesmoke;
+    border-right-style: solid;
+    border-right-width: 5px;
+    border-radius: 2px;
+    border-top: solid;
+    border-top-color: whitesmoke;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-top-style: solid;
+    border-top-width: 5px;
+    box-decoration-break: clone;
+}
+
+pre {
+    background-image: url("http://lorempixel.com/1000/200/nature");
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-origin: border-box;
+    background-size: 500px 200px;
+    color: whitesmoke;
+    text-indent: 50px;
+    text-transform: capitalize;
+}
+
+ol{
+    counter-increment: inherit;
+    counter-reset: inherit;
+    white-space: normal;
+    list-style: armenian;
+    
+}
+
+textarea{
+    background-color: lightgray;
+    resize: both;
+    text-overflow: clip;
+}
+
+h2 {
+    writing-mode: vertical-rl;
+    unicode-bidi: embed;
+    text-orientation: sideways-right;
+    direction: rtl;
+    font-synthesis: weight;
+    font-style: oblique;
+    color: whitesmoke;
+}
+
+h3{
+    marquee-direction: forward;
+    marquee-play-count: 10;
+    marquee-speed: normal;
+    marquee-style: scroll;
+}
+
+table {
+    background-color: whitesmoke;
+    border: solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-collapse: inherit;
+    border-width: 5px;
+    box-shadow: aliceblue;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    caption-side: top;
+    empty-cells: hide;
+    table-layout: auto;
+    transform: rotate(10deg);
+    transform-origin: 20% 40%;
+    transform-style: preserve-3d;
+    column-width: 20px;
+    columns: 20px 1;
+}
+
+td {
+    border-spacing: 1px;
+
+}
+
+audio{
+    mark-after: asd
+    mark-before:
+    phonemes:
+    rest:
+    rest-after:
+    rest-before:
+    voice-balance:
+    voice-duration:
+    voice-pitch:
+    voice-pitch-range:
+    voice-rate:
+    voice-stress:
+    voice-volume:
+}
+
+#pilt{
+    mask-image: -webkit-gradient(linear, left top, right bottom,
+    color-stop(0.00,  rgba(0,0,0,1)),
+    color-stop(0.35,  rgba(0,0,0,1)),
+    color-stop(0.50,  rgba(0,0,0,0)),
+    color-stop(0.65,  rgba(0,0,0,0)),
+    color-stop(1.00,  rgba(0,0,0,0)));
+    image-orientation: 90deg;
+    image-rendering: optimize-contrast;
+    image-resolution: from-image;
+    object-fit: fill;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    clear: both;
+    position: static;
+    clip: rect(0px,1000px,200px,0px);
+}
+
+canvas{
+    visibility: hidden;
+}
+
