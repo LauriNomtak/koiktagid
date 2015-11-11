@@ -113,6 +113,7 @@ dialog{
 }
 
 h1{
+    display: block;
     font: 50px arial, sans-serif;
     text-decoration: underline;
     text-shadow: 1px 1px white;
@@ -158,6 +159,9 @@ p {
     text-combine-upright: all;
     text-align-last: justify;
     text-align: justify;
+    align-self: auto;
+    hyphens: auto;
+    float: right;
     tab-size: 100;
     overflow-wrap: normal;
     padding: 10px;
@@ -218,6 +222,7 @@ textarea{
 }
 
 h2 {
+
     writing-mode: vertical-rl;
     unicode-bidi: embed;
     text-orientation: sideways-right;
@@ -279,6 +284,10 @@ audio{
 }
 
 #pilt{
+    transition-property: width;
+    transition-duration: 2s;
+    transition-delay: 0s;
+    transition: width 2s, height 4s;
     mask-image: -webkit-gradient(linear, left top, right bottom,
     color-stop(0.00,  rgba(0,0,0,1)),
     color-stop(0.35,  rgba(0,0,0,1)),

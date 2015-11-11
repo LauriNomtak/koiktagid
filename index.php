@@ -129,8 +129,8 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dignissimos
     </colgroup>
     <thead>
         <tr id="row1">
-            <td>Quae, sapiente!</td>
-            <td>Consequatur, ipsum?</td>
+            <th>Quae, sapiente!</th>
+            <th>Consequatur, ipsum?</th>
         </tr>
     </thead>
     <tbody>
